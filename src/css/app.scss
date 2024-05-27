@@ -1,0 +1,477 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: nunito_regular;
+  src: url(/src/assets/fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: nunito_bold;
+  src: url(/src/assets/fonts/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: caviar_dreams;
+  src: url(/src/assets/fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: caviar_dreams_bold;
+  src: url(/src/assets/fonts/CaviarDreamsBold.ttf);
+}
+
+@font-face {
+  font-family: urbanist;
+  src: url(/src/assets/fonts/Urbanist-Regular.ttf);
+}
+
+// declare a class which applies it
+p {
+  margin-bottom: 0;
+}
+
+.nunito_regular {
+  font-family: 'nunito_regular';
+}
+.nunito_bold {
+  font-family: 'nunito_bold';
+}
+
+.caviar_drams {
+  font-family: 'caviar_dreams';
+}
+.caviar_dreams_bold {
+  font-family: 'caviar_dreams_bold';
+}
+
+.caviar-dreams {
+  font-family: 'caviar_dreams';
+}
+
+.urbanist {
+  font-family: 'urbanist';
+}
+
+.text-3 {
+  font-family: 'caviar_dreams';
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.45px;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: $secondary;
+}
+
+.title-4 {
+  font-family: 'caviar_dreams';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.32px;
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+.title-4-32 {
+  font-family: 'nunito_regular';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30.32px;
+  text-transform: capitalize;
+  color: $secondary;
+}
+
+.text-5 {
+  font-family: 'nunito_regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.55px;
+  color: $secondary;
+}
+
+.text-5-bold {
+  font-family: 'nunito_regular';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  color: $secondary;
+}
+
+.text-6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.82px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+
+.text-6-primary-9 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.82px;
+  color: $primary-9;
+  font-family: 'nunito_regular';
+}
+
+.text-7 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.46px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+.text-7-bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20.46px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+
+.text-24 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.39px;
+  text-transform: uppercase;
+  color: $secondary;
+  font-family: 'caviar_dreams';
+}
+
+.text-24-bold {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: $secondary;
+  // font-family: 'caviar_drams';
+}
+
+.text-16-semibold {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+
+.text-16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+
+.text-16-grey {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: $grey-9;
+  font-family: 'nunito_regular';
+}
+
+
+.text-20-semibold {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: $secondary;
+  font-family: 'nunito_regular';
+}
+
+.container-title {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.container-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.row-input {
+  width: 100%;
+  display: flex;
+  gap: 48px;
+}
+
+.text-ap-primary {
+  color: $ap-primary;
+}
+.bg-ap-primary {
+  background: $ap-primary;
+}
+
+.bg-primary-1 {
+  background: $primary-1;
+}
+
+.bg-success-1 {
+  background: $success-1;
+}
+
+.bg-error-1 {
+  background: $error-1;
+}
+
+.bg-ap-red {
+  background: #9e0505;
+}
+
+.text-ap-primary-light {
+  color: $ap-primary-light;
+}
+.bg-ap-primary-light {
+  background: $ap-primary-light;
+}
+
+.text-ap-primary-dark {
+  color: $ap-primary-dark;
+}
+.bg-ap-primary-dark {
+  background: $ap-primary-dark;
+}
+
+.text-ap-secondary {
+  color: $ap-secondary;
+}
+.bg-ap-secondary {
+  background: $ap-secondary;
+}
+
+.text-ap-secondary-light {
+  color: $ap-secondary-light;
+}
+.bg-ap-secondary-light {
+  background: $ap-secondary-light;
+}
+.text-ap-secondary-dark {
+  color: $ap-secondary-dark;
+}
+.bg-ap-secondary-dark {
+  background: $ap-secondary-dark;
+}
+
+.text-ap-complementary {
+  color: $ap-complementary;
+}
+.bg-ap-complementary {
+  background: $ap-complementary;
+}
+
+.text-ap-light {
+  color: $ap-light;
+}
+.bg-ap-light {
+  background: $ap-light;
+}
+
+.buttonsGlobal {
+  min-width: 100px;
+  border-radius: 10px;
+}
+.buttonsModify {
+  background: #333132;
+  color: #f2b9a6;
+  min-width: 100px;
+  border-radius: 10px;
+}
+
+//DRAWER
+.drawer-items-off {
+  padding: 0;
+  height: 56px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.drawer-items {
+  padding: 0px 24px 0px 32px;
+  height: 56px;
+  display: flex;
+  justify-items: start;
+  align-items: center;
+  color: white;
+}
+.drawer-expansion {
+  color: white;
+}
+
+.drawer-items-text {
+  font-size: 16px;
+  // padding: 0px 24px 0px 32px;
+  font-weight: 400;
+  line-height: 21.82px;
+  // color: $fondo;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.bg-grey-300 {
+  background: $grey-3;
+}
+
+.bg-grey-500 {
+  background: $grey-5;
+}
+
+.container-page {
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 56px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.container-form {
+  width: 100%;
+  padding: 56px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.container-empty {
+  width: 100%;
+  height: calc(100vh - 240px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.container-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 24px;
+}
+
+//dropdown menu
+.q-menu {
+  top: 96px;
+  right: 33px;
+  padding: 16px 24px;
+  width: 248px;
+  border-top: 1px solid #e5e5e5;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 1px 0 rgba(16, 25, 32, 0.16);
+}
+
+//status requests
+.requests-status {
+  width: 128px;
+  padding: 6px 0;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+//border radius inputs and dialogs
+.q-field--outlined .q-field__control,
+.q-dialog__inner > div {
+  border-radius: 8px;
+}
+
+//select language
+.translate {
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.language {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vector {
+  width: 100%;
+  height: 0;
+  border: 1px solid #525252;
+}
+
+//TABLE
+.container-table {
+  width: 100%;
+  height: calc(100vh - 280px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-filters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.page-filters-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-filter {
+  height: 34.5px;
+  padding: 0 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.input-search {
+  width: 320px;
+  border: 1px solid #e5e5e514;
+  box-shadow: 0 8px 1px 0 rgba(229, 229, 229, 0.08);
+}
+
+.pagination-class {
+  border: 1px;
+  border-radius: 10px;
+}
+
+.buttonsClass,
+.filterButtons {
+  border-radius: 10px;
+  border: 1px solid var(--PRIMARIO-60-P, #333132);
+  background: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
