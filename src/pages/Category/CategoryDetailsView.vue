@@ -220,6 +220,7 @@ const editCategory = ref(false);
 
 const updateCategory = (obj: ICategory) => {
   category.value.name = obj.name;
+  category.value.order = obj.order;
 };
 </script>
 

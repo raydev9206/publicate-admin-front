@@ -63,6 +63,7 @@ const useCategory = () => {
   ) {
     const formData = new FormData();
     formData.append('name', JSON.stringify(category.name));
+    formData.append('order', JSON.stringify(category.order));
     try {
       const { data, status }: AxiosResponse = await api.put(
         `${URL_BUSINESS.edit}/${id}`,

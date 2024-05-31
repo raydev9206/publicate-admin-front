@@ -1,5 +1,5 @@
 <template>
-    <q-dialog v-if="showModalConfirm && !canNext" v-model="model">
+    <q-dialog v-if="showModalConfirm && !canNext" v-model="model" persistent>
         <q-card class="card">
             <q-btn icon="close" class="btn-close" flat round dense v-close-popup />
             <div class="message">

@@ -32,7 +32,7 @@ const useBusiness = () => {
 
   async function createBusiness(business: IBusiness) {
     const formData = new FormData();
-    formData.append('name', JSON.stringify(business.name));
+    formData.append('name', business.name);
 
     try {
       const { data, status }: AxiosResponse = await api.post(

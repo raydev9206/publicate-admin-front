@@ -1,6 +1,6 @@
 <template>
   <cardForm
-    moduleName="user"
+    moduleName="admin/user"
     nameForm="Adicionar usuario"
     title="Nuevo usuario"
     parentRoute="Usuario"

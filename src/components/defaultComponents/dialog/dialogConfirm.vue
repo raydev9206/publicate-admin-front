@@ -26,7 +26,7 @@
     <slot name="content" />
   </q-btn>
 
-  <q-dialog v-model="model">
+  <q-dialog v-model="model" persistent>
     <q-card class="card">
       <q-btn icon="close" class="btn-close" flat round dense v-close-popup />
       <div class="message">
