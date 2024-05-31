@@ -59,9 +59,9 @@ async function handleAddCategory() {
     loading.value = true;
     const res = await createBusiness(business.value)
     isAdd.value = true
-    if (res.statusCode === 400) {
+    if (res.statusCode === 403) {
       isInvalid.value = true
-      nameErrorMessage.value = 'El negocio ya está registrada'
+      nameErrorMessage.value = 'El negocio ya está registrado'
     }
     loading.value = false;
   }
