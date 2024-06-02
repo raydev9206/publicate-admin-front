@@ -227,7 +227,7 @@ const handleEditCategory = async () => {
   if (!invalidForm.value) {
     loading.value = true;
     const res = await patchScategory(route.params.id, scategory.value);
-    if (res.statusCode === 400) {
+    if (res.statusCode === 403) {
       isInvalidEsp.value = true;
       isInvalidEng.value = true;
       nameEngErrorMessage.value = 'La sub categoría ya está registrada';

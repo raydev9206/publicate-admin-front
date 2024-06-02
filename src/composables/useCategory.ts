@@ -93,7 +93,7 @@ const useCategory = () => {
       handleSuccessResponse(
         status,
         'Operación exitosa',
-        'La categoría ha sido eliminadoa',
+        'La categoría ha sido eliminada',
       );
       return data;
     } catch (error) {

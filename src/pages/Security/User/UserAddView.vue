@@ -74,7 +74,6 @@
         <InputSelect
           class="full-width"
           placeholder="Seleccione un negocio"
-          :required="true"
           :options="optionsBusiness"
           :model-value="user.business_id"
           @update:modelValue="(newVal: string) => (user.business_id = newVal)"

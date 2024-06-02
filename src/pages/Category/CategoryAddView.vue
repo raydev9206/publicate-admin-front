@@ -86,7 +86,7 @@ async function handleAddCategory() {
     loading.value = true;
     const res = await createCategory(category.value)
     isAdd.value = true
-    if (res.statusCode === 400) {
+    if (res.statusCode === 403) {
       isInvalidEsp.value = true
       isInvalidEng.value = true
       nameEngErrorMessage.value = 'La categoría ya está registrada'

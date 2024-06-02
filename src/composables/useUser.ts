@@ -82,7 +82,7 @@ const useUser = () => {
       handleSuccessResponse(
         status,
         'Operación exitosa',
-        'El usuario ha sido eliminadoa',
+        'El usuario ha sido eliminado',
       );
       return data;
     } catch (error) {
